@@ -64,7 +64,7 @@
             <span class="icon-bar bottom-bar"></span>
           </button>
 
-          <!-- [#&lt;Jekyll::Page @relative_path=&quot;404.html&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/about.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/dropdown.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;assets/css/main.scss&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;robots.txt&quot;&gt;, #&lt;Jekyll:Archive @type=year @title={:year=&gt;&quot;2022&quot;} @data={&quot;layout&quot;=&gt;&quot;archive-year&quot;}&gt;, #&lt;JekyllRedirectFrom::PageWithoutAFile @relative_path=&quot;redirects.json&quot;&gt;, #&lt;JekyllFeed::PageWithoutAFile @relative_path=&quot;feed.xml&quot;&gt;, #&lt;Jekyll::PaginateV2::Generator::PaginationPage @relative_path=&quot;.html&quot;&gt;, #&lt;Jekyll::PageWithoutAFile @relative_path=&quot;sitemap.xml&quot;&gt;, #&lt;Jekyll::SourceMapPage @name=&quot;main.css.map&quot;&gt;] -->
+          <!-- [#&lt;Jekyll::Page @relative_path=&quot;404.html&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/about.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/dropdown.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;index.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;assets/css/main.scss&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;robots.txt&quot;&gt;, #&lt;Jekyll:Archive @type=tag @title=multi-agent @data={&quot;layout&quot;=&gt;&quot;archive-tag&quot;}&gt;, #&lt;Jekyll:Archive @type=tag @title=reinforcement-learning @data={&quot;layout&quot;=&gt;&quot;archive-tag&quot;}&gt;, #&lt;Jekyll:Archive @type=tag @title=experimental techniques @data={&quot;layout&quot;=&gt;&quot;archive-tag&quot;}&gt;, #&lt;Jekyll:Archive @type=tag @title=monotonicity @data={&quot;layout&quot;=&gt;&quot;archive-tag&quot;}&gt;, #&lt;Jekyll:Archive @type=year @title={:year=&gt;&quot;2022&quot;} @data={&quot;layout&quot;=&gt;&quot;archive-year&quot;}&gt;, #&lt;Jekyll:Archive @type=year @title={:year=&gt;&quot;2023&quot;} @data={&quot;layout&quot;=&gt;&quot;archive-year&quot;}&gt;, #&lt;JekyllRedirectFrom::PageWithoutAFile @relative_path=&quot;redirects.json&quot;&gt;, #&lt;JekyllFeed::PageWithoutAFile @relative_path=&quot;feed.xml&quot;&gt;, #&lt;Jekyll::PaginateV2::Generator::PaginationPage @relative_path=&quot;.html&quot;&gt;, #&lt;Jekyll::PageWithoutAFile @relative_path=&quot;sitemap.xml&quot;&gt;, #&lt;Jekyll::SourceMapPage @name=&quot;main.css.map&quot;&gt;] -->
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
@@ -170,6 +170,553 @@
   
 
   <ul class="post-list">
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/diffusion-is-all-you-need/">A Match Made in Drug Discovery - Marrying Geometric and Diffusion Models</a>
+        
+      </h3>
+      <p>The chemical space of molecular candidates is vast, and within this space, interesting and powerful drugs are waiting to be found. The use of machine learning has shown to be an effective method to speed up the process of discovering novel compounds, especially the use of (deep) generative models. The recent surge in graph generative models have opened up new avenues for exploring the chemical space of molecular candidates, enabling a more efficient and systematic exploration of the chemical space, increasing the chances of finding novel and potent molecules. One of the recent breakthroughs includes the use of diffusion models, which have proven to yield superior performance in molecular conformation tasks, among others. In this blog post, we aim to highlight one of them, which is the 'GeoDiff - A Geometric Diffusion Model for Molecular Conformation Generation' paper by Xu et al. (2022). We aim to distill the paper in semi-layman terms, to provide researchers and practitioners with a deeper understanding of the (i) methodology and results and (ii) (societal) implications of this breakthrough in the field of drug discovery and (iii) discuss future applications in the field of (bio)medicine.</p>
+      <p class="post-meta">
+        17 min read   ·  
+        February 17, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/language-rl/">Language and (Meta-) RL - An ode to structure</a>
+        
+      </h3>
+      <p>It has been argued that language can be a very powerful way to compress information about the world. In fact, the learning of humans is significantly sped up around the time they start understanding and using language. A natural question, then, is whether the same can be argued for sequential decision-making systems that either learn to optimize a single or multiple, task. To this end, there has been a surge of works exploring the use of Language in Reinforcement Learning (RL) and Meta-RL. The goal of this blog post is to try and explain some of the recent works in this sub-field and help elucidate how language can help with incorporating structure about the environment to improve learning generalization in (Meta) RL</p>
+      <p class="post-meta">
+        14 min read   ·  
+        February 11, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/taking_notes_on_the_fly/">Transformers Learn Faster by Taking Notes on the Fly</a>
+        
+      </h3>
+      <p>If your unsupervised pre-training is taking forever and you need a lightweight solution that will accelerate it, taking notes might be the method you are looking for! This method takes notes of the contextual information of the rare words and incorporates this information as a part of their embeddings on the fly! The solution is lightweight in the sense that it does not increase the inference time and it does not require an additional pass during training. The experiments demonstrate that this method reduces the pre-training time of large language models by up to 60%.</p>
+      <p class="post-meta">
+        15 min read   ·  
+        February 7, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/controllable-music-generation-via-midi-ddsp/">Controllable Music Generation via MIDI-DDSP</a>
+        
+      </h3>
+      <p>Recently, there has been a lot of fascinating work focusing on making music generation for a larger and more general audience. However, these models could be of great help to the artists if they can intervene into the generation process at multiple levels in order to control what notes are played and how they are performed. We hence dive deeper into MIDI-DDSP that helps with high-fidelity generations using an interpretable hierarchy with several degrees of granularity.</p>
+      <p class="post-meta">
+        10 min read   ·  
+        February 2, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/Adaptive-Reward-Penalty-in-Safe-Reinforcement-Learning/">Adaptive Reward Penalty in Safe Reinforcement Learning</a>
+        
+      </h3>
+      <p>In this blog, we dive into the ICLR 2019 paper Reward Constrained Policy Optimization (RCPO) by Tessler et al. and highlight the importance of adaptive reward shaping in safe reinforcement learning. We reproduce the paper's experimental results by implementing RCPO into Proximal Policy Optimization (PPO). This blog aims to provide researchers and practitioners with (1) a better understanding of safe reinforcement learning in terms of constrained optimization and (2) how penalized reward functions can be effectively used to train a robust policy.</p>
+      <p class="post-meta">
+        16 min read   ·  
+        January 31, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2023/Underfitting-and-Regularization-Finding-the-Right-Balance/">Underfitting and Regularization: Finding the Right Balance</a>
+        
+      </h3>
+      <p>In this blog post, we will go over the ICLR 2022 paper titled NETWORK AUGMENTATION FOR TINY DEEP LEARNING. This paper introduces a new training method for improving the performance of tiny neural networks. NetAug augments the network (reverse dropout), it puts the tiny model into larger models and encourages it to work as a sub-model of larger models to get extra supervision.</p>
+      <p class="post-meta">
+        21 min read   ·  
+        January 15, 2023
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2023">
+          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/riit/">Rethinking the Implementation Tricks and Monotonicity Constraint in Cooperative Multi-agent Reinforcement Learning</a>
+        
+      </h3>
+      <p></p>
+      <p class="post-meta">
+        44 min read   ·  
+        December 13, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+            ·  
+            
+            <a href="/blog/tag/multi-agent">
+              <i class="fas fa-hashtag fa-sm"></i> multi-agent</a>  
+              
+            <a href="/blog/tag/reinforcement-learning">
+              <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning</a>  
+              
+            <a href="/blog/tag/experimental-techniques">
+              <i class="fas fa-hashtag fa-sm"></i> experimental techniques</a>  
+              
+            <a href="/blog/tag/monotonicity">
+              <i class="fas fa-hashtag fa-sm"></i> monotonicity</a>  
+              
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/hippo-to-h3/">From HiPPO to H3</a>
+        
+      </h3>
+      <p>Equipping State Space Models for Language</p>
+      <p class="post-meta">
+        46 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/text2vid/">Building Blocks of Text-to-Video Generation</a>
+        
+      </h3>
+      <p>Google's Imagen Video and Meta's Make-a-Video Explained</p>
+      <p class="post-meta">
+        21 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/sets-and-graphs/">Universality of Neural Networks on Sets vs. Graphs</a>
+        
+      </h3>
+      <p>Universal function approximation is one of the central tenets in theoretical deep learning research. It is the question whether a specific neural network architecture is, in theory, able to approximate any function of interest. The ICLR paper “How Powerful are Graph Neural Networks?” shows that mathematically analysing the constraints of an architecture as a universal function approximator and alleviating these constraints can lead to more principled architecture choices, performance improvements, and long term impact on the field. Specifically in the fields of learning on sets and learning on graphs, universal function approximation is a well-studied property. The two fields are closely linked, because the need for permutation invariance in both cases lead to similar building blocks. However, these two fields have evolved in parallel, often lacking awareness of developments in the respective other field. This post aims at bringing these two fields closer together, particularly from the perspective of universal function approximation.</p>
+      <p class="post-meta">
+        18 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/raspy/">Thinking Like Transformers</a>
+        
+      </h3>
+      <p>Learn to code as if you were a Transformer.</p>
+      <p class="post-meta">
+        21 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/how-much-meta-learning-is-in-image-to-image-translation/">How much meta-learning is in image-to-image translation?</a>
+        
+      </h3>
+      <p>...in which we find a connection between meta-learning literature and a paper studying how well CNNs deal with nuisance transforms in a class-imbalanced setting. Closer inspection reveals a surprising amount of similarity - from meta-information to loss functions.</p>
+      <p class="post-meta">
+        22 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/how-does-the-inductive-bias-influence-the-generalization-capability-of-neural-networks/">How does the inductive bias influence the generalization capability of neural networks?</a>
+        
+      </h3>
+      <p>The blog post discusses how memorization and generalization are affected by extreme overparameterization.</p>
+      <p class="post-meta">
+        11 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/hitchhikers-momentum/">A Hitchhiker's Guide to Momentum</a>
+        
+      </h3>
+      <p>Polyak momentum is one of the most iconic methods in optimization. Despite it's simplicity, it features rich dynamics that depend both on the step-size and momentum parameter. In this blog post we identify the different regions of the parameter space and discuss their convergence properties using the theory of Chebyshev polynomials.</p>
+      <p class="post-meta">
+        18 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/facial-poisoning/">Data Poisoning is Hitting a Wall</a>
+        
+      </h3>
+      <p>In this post, we look at the paper 'Data Poisoning Won't Save You From Facial Recognition', discuss the impact of the work, and additionally look at how this work fares in the current state of adversarial machine learning. Being a blog post as opposed to a traditional paper, we try to avoid inundating the reader with mathematical equations and complex terminologies. Instead, we aim to put forth this work's primary concept and implications, along with our observations, in a clear, concise manner. Don't want to go through the entire post? Check out the TL;DR at the end for a quick summary.</p>
+      <p class="post-meta">
+        17 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/distill-example/">Sample Blog Post</a>
+        
+      </h3>
+      <p>Your blog post's abstract. This is an example of a distill-style blog post and the main elements it supports.</p>
+      <p class="post-meta">
+        15 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/classification-layer-initialization-in-maml/">Strategies for Classification Layer Initialization in Model-Agnostic Meta-Learning</a>
+        
+      </h3>
+      <p>This blog post discusses different strategies for initializing the classification layers parameters before fine-tuning on a new task in Model-Agnostic Meta-Learning.</p>
+      <p class="post-meta">
+        19 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/bsuite-applications/">Practical Applications of Bsuite For Reinforcement Learning</a>
+        
+      </h3>
+      <p>In 2019, researchers at DeepMind published a suite of reinforcement learning environments called Behavior Suite for Reinforcement Learning, or bsuite. Each environment is designed to directly test a core capability of a general reinforcement learning agent, such as its ability to generalize from past experience or handle delayed rewards. The authors claim that bsuite can be used to benchmark agents and bridge the gap between theoretical and applied reinforcement learning understanding. In this blog post, we extend their work by providing specific examples of how bsuite can address common challenges faced by reinforcement learning practitioners during the development process. Our work offers pragmatic guidance to researchers and highlights future research directions in reproducible reinforcement learning.</p>
+      <p class="post-meta">
+        37 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
+    
+
+    
+    
+    
+    
+
+    <li>
+      <h3>
+        
+          <a class="post-title" href="/blog/2022/autoregressive-neural-pde-solver/">Autoregressive Renaissance in Neural PDE Solvers</a>
+        
+      </h3>
+      <p>Recent developments in the field of neural partial differential equation (PDE) solvers have placed a strong emphasis on neural operators. However, the paper Message Passing Neural PDE Solver by Brandstetter et al. published in ICLR 2022 revisits autoregressive models and designs a message passing graph neural network that is comparable with or outperforms both the state-of-the-art Fourier Neural Operator and traditional classical PDE solvers in its generalization capabilities and performance. This blog post delves into the key contributions of this work, exploring the strategies used to address the common problem of instability in autoregressive models and the design choices of the message passing graph neural network architecture.</p>
+      <p class="post-meta">
+        31 min read   ·  
+        December 1, 2022
+      </p>
+      <p class="post-tags">
+        <a href="/blog/2022">
+          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+
+          
+
+          
+    </p>
+    </li>
+
     
 
     

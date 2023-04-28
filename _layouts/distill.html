@@ -96,22 +96,19 @@
         <d-citation-list></d-citation-list>
       </d-appendix>
 
-      <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
-
-      {%- if site.disqus_shortname and page.disqus_comments -%}
-        {% include disqus.html %}
-      {%- endif %}
-      {%- if site.giscus.repo and page.giscus_comments -%}
-        {% include giscus.html %}
-      {%- endif -%}
-
     </div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
-
+    <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+    
+    <script src="https://utteranc.es/client.js"
+        repo="iclr-blogposts/2023"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    
     {% include scripts/bootstrap.html %}
     {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
   </body>
 </html>

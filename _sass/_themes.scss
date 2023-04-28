@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
+
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
@@ -34,13 +34,13 @@
 }
 
 .header-background .img {
-  background-image: url("../img/ICLR-logo.png");
+  background-image: url("../img/uva-logo.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: center bottom;
   height: 12em;
   margin-bottom: 0em;
-  margin-top: -2.7em;  
+  margin-top: -2.7em;
 }
 
 html[data-theme='dark'] {
@@ -74,13 +74,13 @@ html[data-theme='dark'] {
   }
 
 .header-background .img {
-  background-image: url("../img/ICLR-logo-dark.png");
+  background-image: url("../img/uva-logo-dark.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: center bottom;
   height: 12em;
   margin-bottom: 0em;
-  margin-top: -2.7em;  
+  margin-top: -2.7em;
   // filter: invert(89%);
 }
 

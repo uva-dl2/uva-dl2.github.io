@@ -35,7 +35,7 @@
 }
 
 .header-background .img {
-  background-image: url("../img/ICLR-logo.png");
+  background-image: url("../img/uva-logo.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: center bottom;
@@ -73,7 +73,7 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 html[data-theme=dark] .header-background .img {
-  background-image: url("../img/ICLR-logo-dark.png");
+  background-image: url("../img/uva-logo-dark.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: center bottom;

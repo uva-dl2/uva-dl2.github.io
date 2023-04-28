@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- _layouts/distill.html --><html>
-  <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+<!-- _layouts/distill.html -->
+<html>
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
@@ -9,35 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Decay No More | UvA DL2 blogposts</title>
-    <meta name="author" content="abc b c">
-    <meta name="description" content="Weight decay is among the most important tuning parameters to reach high accuracy for large-scale machine learning models. In this blog post, we revisit AdamW, the weight decay version of Adam, summarizing empirical findings as well as theoretical motivations from an optimization perspective.">
-    <meta name="keywords" content="machine-learning, ml, deep-learning, reinforcement-learning, UvA">
+    <meta name="author" content="abc b c" />
+    <meta name="description" content="Weight decay is among the most important tuning parameters to reach high accuracy for large-scale machine learning models. In this blog post, we revisit AdamW, the weight decay version of Adam, summarizing empirical findings as well as theoretical motivations from an optimization perspective." />
+    <meta name="keywords" content="machine-learning, ml, deep-learning, reinforcement-learning, UvA" />
 
 
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
 
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
-
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="/assets/img/uva_favicon.ico">
+    <link rel="shortcut icon" href="/assets/img/uva_favicon.ico"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://uva-dl2.github.io/blog/2022/adamw/">
-
+    
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
@@ -65,8 +63,7 @@
     
   </head>
 
-  <body>
-<d-front-matter>
+  <d-front-matter>
     <script async type="text/json">{
       "title": "Decay No More",
       "description": "Weight decay is among the most important tuning parameters to reach high accuracy for large-scale machine learning models. In this blog post, we revisit AdamW, the weight decay version of Adam, summarizing empirical findings as well as theoretical motivations from an optimization perspective.",
@@ -101,7 +98,7 @@
     }</script>
   </d-front-matter>
 
-  
+  <body class="fixed-top-nav">
 
     <!-- Header -->
     <header>
@@ -118,23 +115,45 @@
             <span class="icon-bar bottom-bar"></span>
           </button>
 
+          <!-- [#&lt;Jekyll::Page @relative_path=&quot;404.html&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/about.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;_pages/dropdown.md&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;assets/css/main.scss&quot;&gt;, #&lt;Jekyll::Page @relative_path=&quot;robots.txt&quot;&gt;, #&lt;Jekyll:Archive @type=year @title={:year=&gt;&quot;2022&quot;} @data={&quot;layout&quot;=&gt;&quot;archive-year&quot;}&gt;, #&lt;JekyllRedirectFrom::PageWithoutAFile @relative_path=&quot;redirects.json&quot;&gt;, #&lt;JekyllFeed::PageWithoutAFile @relative_path=&quot;feed.xml&quot;&gt;, #&lt;Jekyll::PaginateV2::Generator::PaginationPage @relative_path=&quot;.html&quot;&gt;, #&lt;Jekyll::PageWithoutAFile @relative_path=&quot;sitemap.xml&quot;&gt;] -->
+
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/"></a>
-              </li>
-              
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="/2023/about">about</a>
+              </li> -->
+              <!-- Call -->
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="/2023/call">call</a>
+              </li> -->
+              <!-- submissions -->
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="/2023/submissions/">submissions</a>
+              </li> -->
               <!-- Blog -->
-              <li class="nav-item active">
+              <!-- <li class="nav-item active">
                 <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
+              </li> -->
+              <!-- 2022 -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="https://iclr-blog-track.github.io/home/">2022 edition <u>⤤</u><span class="sr-only">(current)</span></a>
+              </li> -->
 
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/about">about</a>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/index.html">blog</a>
+              </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">past iterations</a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://iclr-blog-track.github.io/home/" target="_blank" rel="noopener noreferrer">2022</a>
+                  </div>
+                </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -147,15 +166,7 @@
           </div>
         </div>
       </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
     </header>
-
 
     <!-- Content -->
     <div class="post distill">
@@ -208,20 +219,20 @@
 
 <div class="jekyll-twitter-plugin">
 <blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">The story of weight decay in pictures:<br><br>weight decay ...<br>1)  improves data efficiency by &gt; 50%<br>2) is frequently found in the best hyperparam configs<br>3) is among the most important hparams to tune<br>4) is also tricky to tune <a href="https://t.co/PjWpk3pJxz" rel="external nofollow noopener" target="_blank">pic.twitter.com/PjWpk3pJxz</a></p>— Sebastian Raschka (@rasbt) <a href="https://twitter.com/rasbt/status/1614327550058328064?ref_src=twsrc%5Etfw" rel="external nofollow noopener" target="_blank">January 14, 2023</a>
+<p lang="en" dir="ltr">The story of weight decay in pictures:<br><br>weight decay ...<br>1)  improves data efficiency by &gt; 50%<br>2) is frequently found in the best hyperparam configs<br>3) is among the most important hparams to tune<br>4) is also tricky to tune <a href="https://t.co/PjWpk3pJxz" target="_blank" rel="noopener noreferrer">pic.twitter.com/PjWpk3pJxz</a></p>— Sebastian Raschka (@rasbt) <a href="https://twitter.com/rasbt/status/1614327550058328064?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">January 14, 2023</a>
 </blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div class="jekyll-twitter-plugin">
 <blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">There is a gaping hole in the literature regarding the purpose of weight decay in deep learning.  Nobody knows what weight decay does!  AFAIK, the last comprehensive look at weight decay was this 2019 paper <a href="https://t.co/7WDBZojsm0" rel="external nofollow noopener" target="_blank">https://t.co/7WDBZojsm0</a>, which argued that weight decay <a href="https://t.co/qUpCbfhFRf" rel="external nofollow noopener" target="_blank">https://t.co/qUpCbfhFRf</a></p>— Jeremy Cohen (@deepcohen) <a href="https://twitter.com/deepcohen/status/1617274166570528769?ref_src=twsrc%5Etfw" rel="external nofollow noopener" target="_blank">January 22, 2023</a>
+<p lang="en" dir="ltr">There is a gaping hole in the literature regarding the purpose of weight decay in deep learning.  Nobody knows what weight decay does!  AFAIK, the last comprehensive look at weight decay was this 2019 paper <a href="https://t.co/7WDBZojsm0" target="_blank" rel="noopener noreferrer">https://t.co/7WDBZojsm0</a>, which argued that weight decay <a href="https://t.co/qUpCbfhFRf" target="_blank" rel="noopener noreferrer">https://t.co/qUpCbfhFRf</a></p>— Jeremy Cohen (@deepcohen) <a href="https://twitter.com/deepcohen/status/1617274166570528769?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">January 22, 2023</a>
 </blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <p>The paper by Zhang et al. <d-cite key="Zhang2019"></d-cite> - which is the one mentioned in the second tweet - gives a comprehensive overview of weight decay and its effect on generalization, in particular in the interplay with Batch Normalization <code class="language-plaintext highlighter-rouge">(BN)</code> <d-cite key="Ioffe2015"></d-cite>. 
-Batch Normalization describes a module of a network that normalizes the output of the previous layer to have zero mean and variance of one (or a variant of this with learnable mean and variance). We will not go into the details here but refer to <a href="https://iclr-blog-track.github.io/2022/03/25/unnormalized-resnets/" rel="external nofollow noopener" target="_blank">this blog post</a> <d-cite key="pieterjan2022normalizationisdead"></d-cite> for the interested reader.</p>
+Batch Normalization describes a module of a network that normalizes the output of the previous layer to have zero mean and variance of one (or a variant of this with learnable mean and variance). We will not go into the details here but refer to <a href="https://iclr-blog-track.github.io/2022/03/25/unnormalized-resnets/" target="_blank" rel="noopener noreferrer">this blog post</a> <d-cite key="pieterjan2022normalizationisdead"></d-cite> for the interested reader.</p>
 
 <p>We want to summarize two findings of <d-cite key="Zhang2019"></d-cite>:</p>
 
@@ -276,7 +287,7 @@ We try to shed some light on the following questions:</p>
 \[\tag{AdamW}
 w_t = (1-\eta_t \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
 
-<p>While for <span style="font-family:monospace">Adam</span> several results for convex and nonconvex problems are established <d-cite key="Defossez2022, Reddi2018"></d-cite>, theoretical guarantees for <span style="font-family:monospace">AdamW</span> have been explored - to the best of our knowledge - only very recently <d-cite key="Anonymous2023"></d-cite>. Despite this, the method has enjoyed considerable practical success: for instance, <span style="font-family:monospace">AdamW</span> is implemented in the machine learning libraries Tensorflow <d-cite key="Abadi2015"></d-cite> and Pytorch <d-cite key="Paszke2019"></d-cite>. Another example is the <code class="language-plaintext highlighter-rouge">fairseq</code> library, developped by Facebook Research, which implements many SeqToSeq models. In their codebase, when <span style="font-family:monospace">Adam</span> is specified with weight decay, <span style="font-family:monospace">AdamW</span> is used by default (see <a href="https://github.com/facebookresearch/fairseq/blob/main/fairseq/optim/adam.py" rel="external nofollow noopener" target="_blank">here</a>).</p>
+<p>While for <span style="font-family:monospace">Adam</span> several results for convex and nonconvex problems are established <d-cite key="Defossez2022, Reddi2018"></d-cite>, theoretical guarantees for <span style="font-family:monospace">AdamW</span> have been explored - to the best of our knowledge - only very recently <d-cite key="Anonymous2023"></d-cite>. Despite this, the method has enjoyed considerable practical success: for instance, <span style="font-family:monospace">AdamW</span> is implemented in the machine learning libraries Tensorflow <d-cite key="Abadi2015"></d-cite> and Pytorch <d-cite key="Paszke2019"></d-cite>. Another example is the <code class="language-plaintext highlighter-rouge">fairseq</code> library, developped by Facebook Research, which implements many SeqToSeq models. In their codebase, when <span style="font-family:monospace">Adam</span> is specified with weight decay, <span style="font-family:monospace">AdamW</span> is used by default (see <a href="https://github.com/facebookresearch/fairseq/blob/main/fairseq/optim/adam.py" target="_blank" rel="noopener noreferrer">here</a>).</p>
 
 <p>We summarize the empirical findings of <d-cite key="Loshchilov2019"></d-cite> as follows:</p>
 
@@ -317,7 +328,7 @@ w_t = (1-\eta_t \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt
     Fig. 1: Heatmap of the test accuracy (bright = good accuracy) depending on learning rate and weight decay parameter choice.
 </div>
 
-<p>When revisiting the literature on <span style="font-family:monospace">AdamW</span> we made an interesting practical observation: the <a href="https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html" rel="external nofollow noopener" target="_blank">Pytorch implementation</a> of <span style="font-family:monospace">AdamW</span> is actually slightly different to the algorithm proposed in the paper. In Pytorch, the following is implemented:</p>
+<p>When revisiting the literature on <span style="font-family:monospace">AdamW</span> we made an interesting practical observation: the <a href="https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html" target="_blank" rel="noopener noreferrer">Pytorch implementation</a> of <span style="font-family:monospace">AdamW</span> is actually slightly different to the algorithm proposed in the paper. In Pytorch, the following is implemented:</p>
 
 \[w_t = (1-\eta_t \alpha \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
 
@@ -608,101 +619,17 @@ The only difference - in this very simple example - is that <span style="font-fa
         <d-citation-list></d-citation-list>
       </d-appendix>
 
-      <d-bibliography src="/assets/bibliography/2022-12-01-adamw.bib"></d-bibliography>
-</div>
+    </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2023 abc b c. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-
-      </div>
-    </footer>
-
+    <d-bibliography src="/assets/bibliography/2022-12-01-adamw.bib"></d-bibliography>
+    
+    <script src="https://utteranc.es/client.js" repo="iclr-blogposts/2023" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+</script>
+    
     <!-- Bootsrap & MDB scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
     
-    
-
-<!-- Scrolling Progress Bar -->
-<script type="text/javascript">
-  /*
-   * This JavaScript code has been adapted from the article 
-   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
-   * published on the website https://css-tricks.com on the 7th of May, 2014.
-   * Couple of changes were made to the original code to make it compatible 
-   * with the `al-foio` theme.
-   */
-  const progressBar = $("#progress");
-  /*
-   * We set up the bar after all elements are done loading.
-   * In some cases, if the images in the page are larger than the intended
-   * size they'll have on the page, they'll be resized via CSS to accomodate
-   * the desired size. This mistake, however, breaks the computations as the
-   * scroll size is computed as soon as the elements finish loading.
-   * To account for this, a minimal delay was introduced before computing the
-   * values.
-   */
-  window.onload = function () {
-    setTimeout(progressBarSetup, 50);
-  };
-  /*
-   * We set up the bar according to the browser.
-   * If the browser supports the progress element we use that.
-   * Otherwise, we resize the bar thru CSS styling
-   */
-  function progressBarSetup() {
-    if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
-      $(document).on("scroll", function() {
-        progressBar.attr({ value: getCurrentScrollPosition() });
-      });
-      $(window).on("resize", initializeProgressElement);
-    } else {
-      resizeProgressBar();
-      $(document).on("scroll", resizeProgressBar);
-      $(window).on("resize", resizeProgressBar);
-    }
-  }
-  /*
-   * The vertical scroll position is the same as the number of pixels that
-   * are hidden from view above the scrollable area. Thus, a value > 0 is
-   * how much the user has scrolled from the top
-   */
-  function getCurrentScrollPosition() {
-    return $(window).scrollTop();
-  }
-
-  function initializeProgressElement() {
-    let navbarHeight = $("#navbar").outerHeight(true);
-    $("body").css({ "padding-top": navbarHeight });
-    $("progress-container").css({ "padding-top": navbarHeight });
-    progressBar.css({ top: navbarHeight });
-    progressBar.attr({
-      max: getDistanceToScroll(),
-      value: getCurrentScrollPosition(),
-    });
-  }
-  /*
-   * The offset between the html document height and the browser viewport
-   * height will be greater than zero if vertical scroll is possible.
-   * This is the distance the user can scroll
-   */
-  function getDistanceToScroll() {
-    return $(document).height() - $(window).height();
-  }
-
-  function resizeProgressBar() {
-    progressBar.css({ width: getWidthPercentage() + "%" });
-  }
-  // The scroll ratio equals the percentage to resize the bar
-  function getWidthPercentage() {
-    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-  }
-</script>
-
-  
-</body>
+  </body>
 </html>

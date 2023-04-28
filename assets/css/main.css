@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #2698BA;
+  --global-hover-color: #2698BA;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -32,6 +32,16 @@
 }
 :root .repo-img-dark {
   display: none;
+}
+
+.header-background .img {
+  background-image: url("../img/uva-logo.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center bottom;
+  height: 12em;
+  margin-bottom: 0em;
+  margin-top: -2.7em;
 }
 
 html[data-theme=dark] {
@@ -61,6 +71,15 @@ html[data-theme=dark] .repo-img-light {
 }
 html[data-theme=dark] .repo-img-dark {
   display: block;
+}
+html[data-theme=dark] .header-background .img {
+  background-image: url("../img/uva-logo-dark.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center bottom;
+  height: 12em;
+  margin-bottom: 0em;
+  margin-top: -2.7em;
 }
 
 /******************************************************************************

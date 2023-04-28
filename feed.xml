@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://uva-dl2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://uva-dl2.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-28T12:08:17+00:00</updated><id>https://uva-dl2.github.io/feed.xml</id><title type="html">UvA DL2 blogposts</title><subtitle>Demo website for blogposts of the DL2 course of the University of Amsterdam
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://uva-dl2.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://uva-dl2.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-28T12:20:23+00:00</updated><id>https://uva-dl2.github.io/feed.xml</id><title type="html">UvA DL2 blogposts</title><subtitle>Demo website for blogposts of the DL2 course of the University of Amsterdam
 </subtitle><entry><title type="html">a post with table of contents on a sidebar</title><link href="https://uva-dl2.github.io/blog/2023/sidebar-table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents on a sidebar" /><published>2023-04-25T14:14:00+00:00</published><updated>2023-04-25T14:14:00+00:00</updated><id>https://uva-dl2.github.io/blog/2023/sidebar-table-of-contents</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2023/sidebar-table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents as a sidebar.</p>
 
 <h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
@@ -55,7 +55,406 @@
 
 <h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
 
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://uva-dl2.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://uva-dl2.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://uva-dl2.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://uva-dl2.github.io/blog/2022/redirect</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://uva-dl2.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://uva-dl2.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
+<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://uva-dl2.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://uva-dl2.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Decay No More</title><link href="https://uva-dl2.github.io/blog/2022/adamw/" rel="alternate" type="text/html" title="Decay No More" /><published>2022-12-01T00:00:00+00:00</published><updated>2022-12-01T00:00:00+00:00</updated><id>https://uva-dl2.github.io/blog/2022/adamw</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/adamw/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>Weight decay is a regularization technique in machine learning which scales down the weights in every step. It dates back at least to the 1990’s and the work of Krogh and Hertz <d-cite key="Krogh1991"></d-cite> and Bos and Chug <d-cite key="Bos1996"></d-cite>.</p>
+
+<p>In <code class="language-plaintext highlighter-rouge">Pytorch</code>, weight decay is one simple line which typically is found somewhere in the <code class="language-plaintext highlighter-rouge">step</code>-method:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">group</span><span class="p">[</span><span class="s">'params'</span><span class="p">]:</span>
+  <span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nf">add_</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=-</span><span class="n">decay</span><span class="p">)</span></code></pre></figure>
+
+<p>Subtracting a multiple of the weight can be seen as taking a step into the negative gradient direction of the squared norm of the weight. This relates weight decay to \(\ell_2\)-regularization (see also the <a href="#appendix">Appendix</a> with an excerpt of the original work by Krogh and Hertz <d-cite key="Krogh1991"></d-cite>).</p>
+
+<p>The exact mechanism of weight decay is still puzzling the machine learning community:</p>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The story of weight decay in pictures:<br /><br />weight decay ...<br />1)  improves data efficiency by &gt; 50%<br />2) is frequently found in the best hyperparam configs<br />3) is among the most important hparams to tune<br />4) is also tricky to tune <a href="https://t.co/PjWpk3pJxz">pic.twitter.com/PjWpk3pJxz</a></p>&mdash; Sebastian Raschka (@rasbt) <a href="https://twitter.com/rasbt/status/1614327550058328064?ref_src=twsrc%5Etfw">January 14, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">There is a gaping hole in the literature regarding the purpose of weight decay in deep learning.  Nobody knows what weight decay does!  AFAIK, the last comprehensive look at weight decay was this 2019 paper <a href="https://t.co/7WDBZojsm0">https://t.co/7WDBZojsm0</a>, which argued that weight decay <a href="https://t.co/qUpCbfhFRf">https://t.co/qUpCbfhFRf</a></p>&mdash; Jeremy Cohen (@deepcohen) <a href="https://twitter.com/deepcohen/status/1617274166570528769?ref_src=twsrc%5Etfw">January 22, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<p>The paper by Zhang et al. <d-cite key="Zhang2019"></d-cite> - which is the one mentioned in the second tweet - gives a comprehensive overview of weight decay and its effect on generalization, in particular in the interplay with Batch Normalization <code class="language-plaintext highlighter-rouge">(BN)</code> <d-cite key="Ioffe2015"></d-cite>. 
+Batch Normalization describes a module of a network that normalizes the output of the previous layer to have zero mean and variance of one (or a variant of this with learnable mean and variance). We will not go into the details here but refer to <a href="https://iclr-blog-track.github.io/2022/03/25/unnormalized-resnets/">this blog post</a> <d-cite key="pieterjan2022normalizationisdead"></d-cite> for the interested reader.</p>
+
+<p>We want to summarize two findings of <d-cite key="Zhang2019"></d-cite>:</p>
+
+<ul>
+  <li>On the one hand, weight decay has (in theory) no effect on layers with <code class="language-plaintext highlighter-rouge">(BN)</code>. This is simply due to the fact that <code class="language-plaintext highlighter-rouge">(BN)</code> makes the output invariant to a rescaling of the weights.</li>
+</ul>
+
+<blockquote>
+Weight decay is widely used in networks with Batch Normalization (Ioffe &amp; Szegedy,
+2015). In principle, weight decay regularization should have no effect in this case, since one
+can scale the weights by a small factor without changing the network’s predictions. Hence, it
+does not meaningfully constrain the network’s capacity. 
+
+—Zhang et al., 2019
+</blockquote>
+
+<ul>
+  <li>However, te experiments of the paper show that weight decay on layers with <code class="language-plaintext highlighter-rouge">(BN)</code> can nevertheless improve accuracy. The authors argue that this is due to an effectively larger learning rate.</li>
+</ul>
+
+<p>This blog post will summarize the development of weight decay specifically for <span style="font-family:monospace">Adam</span>.
+We try to shed some light on the following questions:</p>
+
+<ol>
+  <li>What is the difference between <span style="font-family:monospace">Adam</span> and its weight decay version <span style="font-family:monospace">AdamW</span>? Does the existing literature give a clear answer to the question when (and why) <span style="font-family:monospace">AdamW</span> performs better?</li>
+  <li>Is the weight decay mechanism of <span style="font-family:monospace">AdamW</span> just <em>one more trick</em> or can we actually motivate it from an optimization perspective?</li>
+  <li>The last section is somewhat explorational: could we come up with different formulas for a weight decay version of <span style="font-family:monospace">Adam</span>? By doing so, we will see that <span style="font-family:monospace">AdamW</span> already combines several advantages for practical use.</li>
+</ol>
+
+<h3 id="notation">Notation</h3>
+
+<p>We denote by \(\alpha &gt; 0\) the initial learning rate. We use \(\eta_t &gt; 0\) for a learning rate schedule multiplier. By this, the effective learning rate in iteration \(t\) is \(\alpha \eta_t\). We use \(\lambda &gt; 0\) for the weight decay parameter.</p>
+
+<h2 id="adam">Adam</h2>
+
+<p><span style="font-family:monospace">Adam</span> uses an exponentially moving average (EMA) of stochastic gradients, typically denoted by \(m_t\), and of the elementwise squared gradients, denoted by \(v_t\).</p>
+
+<p>We denote with \(\hat m_t\) and \(\hat v_t\) the EMA estimates with bias correction (see <d-cite key="Kingma2015"></d-cite>), this means</p>
+
+\[\hat m_t = \frac{m_t}{1-\beta_1^t}, \quad \hat v_t = \frac{v_t}{1-\beta_2^t}\]
+
+<p>where \(\beta_1, \beta_2 \in [0,1)\). The update formula of <span style="font-family:monospace">Adam</span> is given by</p>
+
+\[w_t = w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
+
+<p>How would <span style="font-family:monospace">Adam</span> handle regularization? The first approach to this was to simply add the regularization term \(\frac{\lambda}{2}\|w\|^2\) on top of the loss, do backpropagation and then compute the <span style="font-family:monospace">Adam</span> step as outlined above. This is usually referred to as <span style="font-family:monospace">AdamL2</span>. However, Loshchilov and Hutter <d-cite key="Loshchilov2019"></d-cite> showed that this can be suboptimal and one major contribution to alleviate this was the development of <span style="font-family:monospace">AdamW</span>.</p>
+
+<h2 id="adamw">AdamW</h2>
+
+<p>For training with \(\ell_2\)-regularization, Loshchilov and Hutter proposed <span style="font-family:monospace">AdamW</span> in 2019 <d-cite key="Loshchilov2019"></d-cite> as an alternative to <span style="font-family:monospace">AdamL2</span>. In the paper, the update formula is given as</p>
+
+\[\tag{AdamW}
+w_t = (1-\eta_t \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
+
+<p>While for <span style="font-family:monospace">Adam</span> several results for convex and nonconvex problems are established <d-cite key="Defossez2022, Reddi2018"></d-cite>, theoretical guarantees for <span style="font-family:monospace">AdamW</span> have been explored - to the best of our knowledge - only very recently <d-cite key="Anonymous2023"></d-cite>. Despite this, the method has enjoyed considerable practical success: for instance, <span style="font-family:monospace">AdamW</span> is implemented in the machine learning libraries Tensorflow <d-cite key="Abadi2015"></d-cite> and Pytorch <d-cite key="Paszke2019"></d-cite>. Another example is the <code class="language-plaintext highlighter-rouge">fairseq</code> library, developped by Facebook Research, which implements many SeqToSeq models. In their codebase, when <span style="font-family:monospace">Adam</span> is specified with weight decay, <span style="font-family:monospace">AdamW</span> is used by default (see <a href="https://github.com/facebookresearch/fairseq/blob/main/fairseq/optim/adam.py">here</a>).</p>
+
+<p>We summarize the empirical findings of <d-cite key="Loshchilov2019"></d-cite> as follows:</p>
+
+<ul>
+  <li>
+    <p><span style="font-family:monospace">AdamW</span> improves generalization as compared to <span style="font-family:monospace">AdamL2</span> for image classification tasks. In the paper, the authors use a ResNet model <d-cite key="He2016"></d-cite> for the CIFAR10 and Imagenet32 dataset.</p>
+  </li>
+  <li>
+    <p>Another advantage of <span style="font-family:monospace">AdamW</span> is stated in the abstract of <d-cite key="Loshchilov2019"></d-cite>:</p>
+  </li>
+</ul>
+<blockquote>
+    We provide empirical evidence that our proposed modification decouples the optimal choice of weight decay factor from the setting of the learning rate for both standard SGD and Adam [...].
+    —Loshchilov and Hutter, 2019
+</blockquote>
+
+<p>What the authors mean by <em>decoupling</em> is that if we plot the test accuracy as a heatmap of learning rate and weight decay, the areas with high accuracy are more rectangular; the best learing rate is not too sensitive to the choice of weight decay. We illustrate this conceptually in the plot below which is inspired by Figure 2 in <d-cite key="Loshchilov2019"></d-cite>. The advantage of a decoupled method is that if one of the two hyperparameters is changed, the optimal value for the other one might still be identical and does not need to be retuned - this could reduce a 2D grid search to two 1D line searches.</p>
+
+<div class="row mt-3">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2022-12-01-adamw/heatmap-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2022-12-01-adamw/heatmap-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2022-12-01-adamw/heatmap-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/2022-12-01-adamw/heatmap.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<div class="caption">
+    Fig. 1: Heatmap of the test accuracy (bright = good accuracy) depending on learning rate and weight decay parameter choice.
+</div>
+
+<p>When revisiting the literature on <span style="font-family:monospace">AdamW</span> we made an interesting practical observation: the <a href="https://pytorch.org/docs/stable/generated/torch.optim.AdamW.html">Pytorch implementation</a> of <span style="font-family:monospace">AdamW</span> is actually slightly different to the algorithm proposed in the paper. In Pytorch, the following is implemented:</p>
+
+\[w_t = (1-\eta_t \alpha \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
+
+<p>The difference is that the decay factor in the code is \(1-\eta_t \alpha \lambda\) instead of \(1-\eta_t \lambda\) in the paper. Clearly, this is equivalent as we can simply reparametrize the weight decay factor \(\lambda\) to make up for this. However, as the default learning rate \(\alpha=0.001\) is rather small, this means that practicioners might need to choose rather high values of \(\lambda\) in order to get sufficiently strong decay. Moreover, this leaves a certain ambiguity when tuned values for \(\lambda\) are reported in the literature.</p>
+
+<h2 id="follow-up-work">Follow-up work</h2>
+
+<p>In a recent article, Zhuang et al. revisit the <span style="font-family:monospace">AdamW</span> method and try to explain its practical success <d-cite key="Zhuang2022"></d-cite>. One of their central arguments is that <span style="font-family:monospace">AdamW</span> is approximately equal to <span style="font-family:monospace">Adam</span> with a proximal update for \(\ell_2\)-regularization.</p>
+
+<p>Before explaining this in detail, we first want to summarize the empirical findings of <d-cite key="Zhuang2022"></d-cite>:</p>
+
+<ul>
+  <li>When <code class="language-plaintext highlighter-rouge">(BN)</code> is <em>deactivated</em>, <span style="font-family:monospace">AdamW</span> achieves better generalization compared to <span style="font-family:monospace">AdamL2</span> for image classification with a standard ResNet architecture <d-cite key="He2016"></d-cite>.</li>
+  <li>When <code class="language-plaintext highlighter-rouge">(BN)</code> is <em>activated</em>, the test accuracy of <span style="font-family:monospace">AdamW</span> and <span style="font-family:monospace">AdamL2</span> are on par. Moreover, the best accuracy is achieved for no weight decay, i.e. \(\lambda=0\).</li>
+</ul>
+
+<p>The second result is somewhat stunning as it seems to contradict the results in <d-cite key="Loshchilov2019"></d-cite>, which had shown that <span style="font-family:monospace">AdamW</span> generalizes better than <span style="font-family:monospace">AdamL2</span>.<d-footnote>It seems like the AdamW-paper also used (BN) in their experiments, see https://github.com/loshchil/AdamW-and-SGDW.</d-footnote></p>
+
+<p>Comparing the details of the experimental setups, we presume the following explanations for this:</p>
+
+<ul>
+  <li>
+    <p>The model that is trained in <d-cite key="Loshchilov2019"></d-cite> is slightly different as it uses a Shake-Shake-Image ResNet <d-cite key="He2016, Gastaldi2017"></d-cite>.</p>
+  </li>
+  <li>
+    <p>From Figure 4 in <d-cite key="Loshchilov2019"></d-cite>, one can observe that the improvement in accuracy for the CIFAR-10 dataset becomes noticeable very late in the training (see also Section 4.3 in <d-cite key="Loshchilov2019"></d-cite>). Thus, depending on the number of epochs after which training is stopped, one can reach different conclusions.</p>
+  </li>
+</ul>
+
+<h2 id="proxadam">ProxAdam</h2>
+
+<p>The paper by Zhuang et al. <d-cite key="Zhuang2022"></d-cite> does not only compare <span style="font-family:monospace">AdamL2</span> to <span style="font-family:monospace">AdamW</span> experimentally, but it also provides a mathematical motivation for weight decay. In order to understand this, we first need to introduce the <strong>proximal operator</strong>, a central concept of convex analysis.</p>
+
+<h3 id="a-short-introduction-to-proximal-operators">A short introduction to proximal operators</h3>
+
+<p>Proximal algorithms have been studied for decades in the context of (non-smooth) optimization, way before machine learning was a thing. The groundwork of this field has been laid by R. Tyrrell Rockafellar from the 1970’s onwards <d-cite key="Rockafellar1976,Rockafellar1998"></d-cite>.
+If \(\varphi: \mathbb{R}^n \to \mathbb{R}\) is convex then the proximal operator is defined as</p>
+
+\[\mathrm{prox}_\varphi(x) := \mathrm{argmin}_{z \in \mathbb{R}^n} \varphi(z) + \frac12 \|z-x\|^2.\]
+
+<p>For many classical regularization functions (e.g. the \(\ell_1\)-norm), the proximal operator can be computed in closed form. This makes it a key ingredient of optimization algorithms for regularized problems. Assume that we want to minimize the sum of a differentiable loss \(f\) and a convex regularizer \(\varphi\), i.e.</p>
+
+\[\min_{w \in \mathbb{R}^n} f(w) + \varphi(w).\]
+
+<p>The proximal gradient method in this setting has the update formula</p>
+
+\[w_{t} = \mathrm{prox}_{\alpha \varphi}\big(w_{t-1}- \alpha \nabla f(w_{t-1})\big),\]
+
+<p>where \(\alpha&gt;0\) is a step size (<em>aka</em> learning rate). An equivalent way of writing this (which will become useful later on) is<d-footnote>This can be proven using the definition of the proximal operator and completing the square.</d-footnote></p>
+
+\[\tag{1}
+w_{t} =  \mathrm{argmin}_y \langle y-w_{t-1}, \nabla f(w_{t-1})\rangle + \varphi(y) + \frac{1}{2\alpha}\|y-w_{t-1}\|^2.\]
+
+<h3 id="weight-decay-as-a-proximal-operator">Weight decay as a proximal operator</h3>
+
+<p>For \(\ell_2\)-regularization \(\varphi(w) = \frac{\lambda}{2}\|w\|^2\), the proximal operator at \(w\) is given by \(\frac{1}{1+\lambda}w = (1-\frac{\lambda}{1+\lambda})w\). Based on this, the authors of <d-cite key="Zhuang2022"></d-cite> propose a proximal version of <span style="font-family:monospace">Adam</span> called <span style="font-family:monospace">ProxAdam</span>. It is given by</p>
+
+\[\tag{ProxAdam}
+w_t = \big(1- \frac{\lambda\eta_t}{1+\lambda\eta_t} \big)w_{t-1} - \frac{\eta_t \alpha}{1+\lambda\eta_t} \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}.\]
+
+<p>Knowing this, we can now understand why <span style="font-family:monospace">AdamW</span> is approximately a proximal version of <span style="font-family:monospace">Adam</span>. Using the first-order  Taylor-approximation \(\frac{ax}{1+bx}\approx ax\) for small \(x\), applied to the coefficients in front of \(w_{t-1}\) and \(\frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}\) gives the formula</p>
+
+\[w_t = (1-\eta_t \lambda)w_{t-1} - \eta_t \alpha \frac{\hat m_t}{\epsilon + \sqrt{\hat v_t}}\]
+
+<p>which is equal to <span style="font-family:monospace">AdamW</span>. The argument we just presented is exactly how <d-cite key="Zhuang2022"></d-cite> concludes that <span style="font-family:monospace">AdamW</span> \(\approx\) <span style="font-family:monospace">ProxAdam</span>.</p>
+
+<h3 id="changing-the-norm">Changing the norm</h3>
+
+<p>There is one more way of interpreting proximal methods. Let us begin with a simple example: Define the diagonal matrix \(D_t := \mathrm{Diag}(\epsilon + \sqrt{\hat v_t})\). Then, the <span style="font-family:monospace">Adam</span> update can be equivalently written<d-footnote>This can be proven by first-order optimality and solving for $w_t$. We will do a similar calculation further below.</d-footnote> as</p>
+
+\[w_t = \mathrm{argmin}_y \langle y-w_{t-1}, \hat m_t \rangle + \frac{1}{2\eta_t\alpha}\|y-w_{t-1}\|_{D_t}^2.\]
+
+<p>In other words, <span style="font-family:monospace">Adam</span> takes a proximal step of a linear function, but with the adaptive norm \(D_t\). This change in norm is what makes <span style="font-family:monospace">Adam</span> different from <span style="font-family:monospace">SGD</span> with (heavy-ball) momentum.</p>
+
+<p>The update formula of <span style="font-family:monospace">ProxAdam</span> can also be written as a proximal method:</p>
+
+\[\tag{P1}
+w_t = \mathrm{argmin}_y \langle y-w_{t-1}, \hat m_t \rangle + \frac{\lambda}{2\alpha}\|y\|_{D_t}^2 + \frac{1}{2 \eta_t \alpha}\|y-w_{t-1}\|_{D_t}^2.\]
+
+<p>In fact, the first-order optimality conditions of (P1) are</p>
+
+\[0 = \hat m_t + \frac{\lambda}{\alpha} D_t w_t + \frac{1}{\eta_t \alpha}D_t (w_t-w_{t-1}).\]
+
+<p>Solving for \(w_t\) (and doing simple algebra) gives</p>
+
+\[\tag{2}
+w_t = (1+\lambda \eta_t)^{-1}\big[w_{t-1} - \eta_t \alpha D_t^{-1} \hat m_t\big]\]
+
+<p>which is equal to <span style="font-family:monospace">ProxAdam</span>.</p>
+
+<p>What is slightly surprising here is the term \(\alpha^{-1}\|y\|_{D_t}^2\) in (P1) - we might have expected the regularization term to be used with the standard \(\ell_2\)-norm. This leads us to our final section.</p>
+
+<h2 id="adamw-is-scale-free"><span style="font-family:monospace">AdamW</span> is scale-free</h2>
+
+<p>As an alternative to (P1), we could replace \(\alpha^{-1}\|y\|_{D_t}^2\) by \(\|y\|^2\) and update</p>
+
+\[w_t = \mathrm{argmin}_y \langle y-w_{t-1}, \hat m_t \rangle + \frac{\lambda}{2}\|y\|^2 + \frac{1}{2\eta_t\alpha}\|y-w_{t-1}\|_{D_t}^2.\]
+
+<p>Again, setting the gradient of the objective to zero and solving for \(w_t\) we get</p>
+
+\[w_t = \big(\mathrm{Id} + \eta_t \lambda \alpha D_t^{-1}\big)^{-1} \big[w_{t-1} - \eta_t\alpha D_t^{-1} \hat m_t \big].\]
+
+<p>Comparing this to (2) we see that the second factor is the same, but the decay factor now also depends on \(D_t\) and \(\alpha\). Let us call this method <span style="font-family:monospace">AdamP</span>.</p>
+
+<p>Now the natural question is whether <span style="font-family:monospace">AdamP</span> or <span style="font-family:monospace">ProxAdam</span> (or <span style="font-family:monospace">AdamW</span> as its approximation) would be superior. One answer to this is that we would prefer a <em>scale-free</em> algorithm: with this we mean that if the loss function would be multiplied by a positive constant, we could still run the method with exactly the same parameters and obtain the same result. <span style="font-family:monospace">Adam</span> for example is scale-free and in <d-cite key="Zhuang2022"></d-cite> it is explained that <span style="font-family:monospace">ProxAdam</span>/<span style="font-family:monospace">AdamW</span> are, too. The reason for this is the following: looking at (P1) we see that if the loss is scaled by \(c&gt;0\), then \(\hat m_t\) and \(D_t\) are scaled by \(c\) (if we neglect the \(\epsilon\) in \(D_t\)). Hence, the objective in (P1) is multiplied by \(c\) which implies that <span style="font-family:monospace">ProxAdam</span> for \(\epsilon=0\) is invariant to scaling for the same values of \(\lambda,\alpha,\eta_t\). Now, for (P2) the story is different, as here the second term \(\frac{\lambda}{2}\|y\|^2\) is not scaled by \(c\), but the other terms are. We would need to rescale \(\lambda\) by \(c\) to obtain the identical update. As a consequence, <span style="font-family:monospace">AdamP</span> would <strong>not be scale-free</strong> and this makes it less attractive as a method. We should point out that scale-freeness is rather a practical advantage that requires less tuning when changing the model or dataset - it does not imply that the test accuracy would be different when both methods are tuned.</p>
+
+<p>To verify this, we ran a simple experiment on a ResNet20 for CIFAR10 with <code class="language-plaintext highlighter-rouge">(BN)</code> deactivated. For <span style="font-family:monospace">AdamW</span> (the <code class="language-plaintext highlighter-rouge">Pytorch</code> version) and <span style="font-family:monospace">AdamP</span> we tested the learning rates <code class="language-plaintext highlighter-rouge">[1e-3,1e-2,1e-1]</code> and weight decay <code class="language-plaintext highlighter-rouge">[1e-5,1e-4,1e-3,1e-2]</code>. From the plots below, we can see that both methods approximately achieve the same accuracy for the best configurations<d-footnote>The best configurations all have learning rate 1e-3.</d-footnote>.
+The only difference - in this very simple example - is that <span style="font-family:monospace">AdamP</span> seems to arrive at a model with smaller norm for the configurations with high accuracy (see right plot). Hence, its regularization seems to be stronger.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2022-12-01-adamw/resnet20val_score-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2022-12-01-adamw/resnet20val_score-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2022-12-01-adamw/resnet20val_score-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/2022-12-01-adamw/resnet20val_score.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2022-12-01-adamw/resnet20model_norm-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2022-12-01-adamw/resnet20model_norm-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2022-12-01-adamw/resnet20model_norm-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/2022-12-01-adamw/resnet20model_norm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<p>For the sake of completeness, we also add a <code class="language-plaintext highlighter-rouge">Pytorch</code> implementation of <span style="font-family:monospace">AdamP</span> in the <a href="#appendix">Appendix</a>.</p>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+  <li>
+    <p>Weight decay can be seen as a proximal way of handling \(\ell_2\)-regularization. Therefore, it is not a different <em>type</em> of regularization itself but rather a different <em>treatment</em> of regularization in the optimization method. As a consequence, <span style="font-family:monospace">AdamW</span> is an (almost) proximal version of <span style="font-family:monospace">Adam</span>.</p>
+  </li>
+  <li>
+    <p>Whether or not weight decay brings advantages when used <em>together with</em> <code class="language-plaintext highlighter-rouge">(BN)</code> seems to depend on several factors of the model and experimental design. However, in all experiments we discussed here <span style="font-family:monospace">AdamW</span> performed better or at least on par to <span style="font-family:monospace">AdamL2</span>.</p>
+  </li>
+  <li>
+    <p>The second conclusion suggests that proximal algorithms such as <span style="font-family:monospace">AdamW</span> seem to be favourable. Together with the scale-free property that we described in the final section, this makes <span style="font-family:monospace">AdamW</span> a robust method and explains its practical success.</p>
+  </li>
+</ul>
+
+<p><a name="appendix"></a></p>
+<h2 id="appendix">Appendix</h2>
+
+<div class="row mt-3">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2022-12-01-adamw/krogh_snippet-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2022-12-01-adamw/krogh_snippet-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2022-12-01-adamw/krogh_snippet-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/2022-12-01-adamw/krogh_snippet.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+</div>
+<div class="caption">
+    Fig. 2: Excerpt of the introduction in <d-cite key="Krogh1991"></d-cite>.
+</div>
+
+<p>Below you find a <code class="language-plaintext highlighter-rouge">Pytorch</code> implementation of <span style="font-family:monospace">AdamP</span>:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="n">torch</span>
+<span class="kn">from</span> <span class="n">torch.optim</span> <span class="kn">import</span> <span class="n">Optimizer</span>
+
+
+<span class="k">class</span> <span class="nc">AdamP</span><span class="p">(</span><span class="n">Optimizer</span><span class="p">):</span>
+    <span class="sa">r</span><span class="s">"""
+    Arguments:
+        params (iterable): iterable of parameters to optimize or dicts defining
+            parameter groups
+        lr (float, optional): learning rate (default: 1e-3)
+        betas (Tuple[float, float], optional): coefficients used for computing
+            running averages of gradient and its square (default: (0.9, 0.999))
+        eps (float, optional): term added to the denominator to improve
+            numerical stability (default: 1e-8)
+        weight_decay (float, optional): weight decay (L2 penalty) (default: 0)
+        
+    """</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">lr</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">,</span> <span class="n">betas</span><span class="o">=</span><span class="p">(</span><span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">),</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">,</span>
+                 <span class="n">weight_decay</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">lr</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="s">"Invalid learning rate: {}"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">lr</span><span class="p">))</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">eps</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="s">"Invalid epsilon value: {}"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">eps</span><span class="p">))</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">betas</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">1.0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="s">"Invalid beta parameter at index 0: {}"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">betas</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">betas</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mf">1.0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="s">"Invalid beta parameter at index 1: {}"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">betas</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="mf">0.0</span> <span class="o">&lt;=</span> <span class="n">weight_decay</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="s">"Invalid weight_decay value: {}"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">weight_decay</span><span class="p">))</span>
+        <span class="n">defaults</span> <span class="o">=</span> <span class="nf">dict</span><span class="p">(</span><span class="n">lr</span><span class="o">=</span><span class="n">lr</span><span class="p">,</span> <span class="n">betas</span><span class="o">=</span><span class="n">betas</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="n">eps</span><span class="p">,</span>
+                        <span class="n">weight_decay</span><span class="o">=</span><span class="n">weight_decay</span><span class="p">)</span>
+        
+        <span class="n">self</span><span class="p">.</span><span class="n">_init_lr</span> <span class="o">=</span> <span class="n">lr</span>
+        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">(</span><span class="n">params</span><span class="p">,</span> <span class="n">defaults</span><span class="p">)</span>
+
+        <span class="k">return</span>
+   
+
+    <span class="k">def</span> <span class="nf">step</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">closure</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+        <span class="s">"""Performs a single optimization step.
+
+        Arguments:
+            closure (callable, optional): A closure that reevaluates the model
+                and returns the loss.
+        """</span>
+        
+        <span class="k">if</span> <span class="n">closure</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="nf">enable_grad</span><span class="p">():</span>
+                <span class="n">loss</span> <span class="o">=</span> <span class="nf">closure</span><span class="p">()</span>
+
+        <span class="k">for</span> <span class="n">group</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">param_groups</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">group</span><span class="p">[</span><span class="s">'params'</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">p</span><span class="p">.</span><span class="n">grad</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+                    <span class="k">continue</span>
+
+                <span class="n">grad</span> <span class="o">=</span> <span class="n">p</span><span class="p">.</span><span class="n">grad</span>
+                <span class="n">state</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">state</span><span class="p">[</span><span class="n">p</span><span class="p">]</span>
+
+                <span class="c1"># State initialization
+</span>                <span class="k">if</span> <span class="s">'step'</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">state</span><span class="p">:</span>
+                    <span class="n">state</span><span class="p">[</span><span class="s">'step'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+                    <span class="c1"># Exponential moving average of gradient values
+</span>                    <span class="n">state</span><span class="p">[</span><span class="s">'exp_avg'</span><span class="p">]</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">zeros_like</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">).</span><span class="nf">detach</span><span class="p">()</span>
+                    <span class="c1"># Exponential moving average of squared gradient values
+</span>                    <span class="n">state</span><span class="p">[</span><span class="s">'exp_avg_sq'</span><span class="p">]</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">zeros_like</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">).</span><span class="nf">detach</span><span class="p">()</span>
+                    
+                <span class="n">exp_avg</span><span class="p">,</span> <span class="n">exp_avg_sq</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s">'exp_avg'</span><span class="p">],</span> <span class="n">state</span><span class="p">[</span><span class="s">'exp_avg_sq'</span><span class="p">]</span>
+                <span class="n">beta1</span><span class="p">,</span> <span class="n">beta2</span> <span class="o">=</span> <span class="n">group</span><span class="p">[</span><span class="s">'betas'</span><span class="p">]</span>
+
+                <span class="n">state</span><span class="p">[</span><span class="s">'step'</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">bias_correction1</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">beta1</span><span class="o">**</span><span class="n">state</span><span class="p">[</span><span class="s">'step'</span><span class="p">]</span>
+                <span class="n">bias_correction2</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">beta2</span><span class="o">**</span><span class="n">state</span><span class="p">[</span><span class="s">'step'</span><span class="p">]</span>
+
+                
+                <span class="c1"># Decay the first and second moment running average coefficient
+</span>                <span class="n">exp_avg</span><span class="p">.</span><span class="nf">mul_</span><span class="p">(</span><span class="n">beta1</span><span class="p">).</span><span class="nf">add_</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span> <span class="mi">1</span><span class="o">-</span><span class="n">beta1</span><span class="p">)</span>
+                <span class="n">exp_avg_sq</span><span class="p">.</span><span class="nf">mul_</span><span class="p">(</span><span class="n">beta2</span><span class="p">).</span><span class="nf">addcmul_</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">grad</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span> <span class="mi">1</span><span class="o">-</span><span class="n">beta2</span><span class="p">)</span>
+                <span class="n">D</span> <span class="o">=</span> <span class="p">(</span><span class="n">exp_avg_sq</span><span class="p">.</span><span class="nf">div</span><span class="p">(</span><span class="n">bias_correction2</span><span class="p">)).</span><span class="nf">sqrt</span><span class="p">().</span><span class="nf">add_</span><span class="p">(</span><span class="n">group</span><span class="p">[</span><span class="s">'eps'</span><span class="p">])</span>
+
+                <span class="n">lr</span> <span class="o">=</span> <span class="n">group</span><span class="p">[</span><span class="s">'lr'</span><span class="p">]</span>
+                <span class="n">lmbda</span> <span class="o">=</span> <span class="n">group</span><span class="p">[</span><span class="s">'weight_decay'</span><span class="p">]</span>
+
+                <span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nf">addcdiv_</span><span class="p">(</span><span class="n">exp_avg</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">value</span><span class="o">=-</span><span class="n">lr</span><span class="o">/</span><span class="n">bias_correction1</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">lmbda</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="n">p</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="nf">div_</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">+</span> <span class="n">lr</span><span class="o">*</span><span class="n">lmbda</span><span class="o">/</span><span class="n">D</span><span class="p">)</span> <span class="c1"># adaptive weight decay
+</span>
+            
+
+        <span class="k">return</span> <span class="n">loss</span></code></pre></figure>]]></content><author><name>Anonymous</name></author><summary type="html"><![CDATA[Weight decay is among the most important tuning parameters to reach high accuracy for large-scale machine learning models. In this blog post, we revisit AdamW, the weight decay version of Adam, summarizing empirical findings as well as theoretical motivations from an optimization perspective.]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://uva-dl2.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://uva-dl2.github.io/blog/2022/redirect</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://uva-dl2.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://uva-dl2.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
 Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
 
 <p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
@@ -80,7 +479,7 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1682683706651" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1682683706651 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1682683706651 .node circle,#mermaid-1682683706651 .node ellipse,#mermaid-1682683706651 .node polygon,#mermaid-1682683706651 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1682683706651 .node.clickable{cursor:pointer}#mermaid-1682683706651 .arrowheadPath{fill:#333}#mermaid-1682683706651 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1682683706651 .edgeLabel{background-color:#e8e8e8}#mermaid-1682683706651 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1682683706651 .cluster text{fill:#333}#mermaid-1682683706651 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1682683706651 .actor{stroke:#ccf;fill:#ececff}#mermaid-1682683706651 text.actor{fill:#000;stroke:none}#mermaid-1682683706651 .actor-line{stroke:grey}#mermaid-1682683706651 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1682683706651 .messageLine0,#mermaid-1682683706651 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1682683706651 #arrowhead{fill:#333}#mermaid-1682683706651 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1682683706651 .messageText{fill:#333;stroke:none}#mermaid-1682683706651 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1682683706651 .labelText,#mermaid-1682683706651 .loopText{fill:#000;stroke:none}#mermaid-1682683706651 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1682683706651 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1682683706651 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1682683706651 .section{stroke:none;opacity:.2}#mermaid-1682683706651 .section0{fill:rgba(102,102,255,.49)}#mermaid-1682683706651 .section2{fill:#fff400}#mermaid-1682683706651 .section1,#mermaid-1682683706651 .section3{fill:#fff;opacity:.2}#mermaid-1682683706651 .sectionTitle0,#mermaid-1682683706651 .sectionTitle1,#mermaid-1682683706651 .sectionTitle2,#mermaid-1682683706651 .sectionTitle3{fill:#333}#mermaid-1682683706651 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1682683706651 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1682683706651 .grid path{stroke-width:0}#mermaid-1682683706651 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1682683706651 .task{stroke-width:2}#mermaid-1682683706651 .taskText{text-anchor:middle;font-size:11px}#mermaid-1682683706651 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1682683706651 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1682683706651 .taskText0,#mermaid-1682683706651 .taskText1,#mermaid-1682683706651 .taskText2,#mermaid-1682683706651 .taskText3{fill:#fff}#mermaid-1682683706651 .task0,#mermaid-1682683706651 .task1,#mermaid-1682683706651 .task2,#mermaid-1682683706651 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1682683706651 .taskTextOutside0,#mermaid-1682683706651 .taskTextOutside1,#mermaid-1682683706651 .taskTextOutside2,#mermaid-1682683706651 .taskTextOutside3{fill:#000}#mermaid-1682683706651 .active0,#mermaid-1682683706651 .active1,#mermaid-1682683706651 .active2,#mermaid-1682683706651 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1682683706651 .activeText0,#mermaid-1682683706651 .activeText1,#mermaid-1682683706651 .activeText2,#mermaid-1682683706651 .activeText3{fill:#000!important}#mermaid-1682683706651 .done0,#mermaid-1682683706651 .done1,#mermaid-1682683706651 .done2,#mermaid-1682683706651 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1682683706651 .doneText0,#mermaid-1682683706651 .doneText1,#mermaid-1682683706651 .doneText2,#mermaid-1682683706651 .doneText3{fill:#000!important}#mermaid-1682683706651 .crit0,#mermaid-1682683706651 .crit1,#mermaid-1682683706651 .crit2,#mermaid-1682683706651 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1682683706651 .activeCrit0,#mermaid-1682683706651 .activeCrit1,#mermaid-1682683706651 .activeCrit2,#mermaid-1682683706651 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1682683706651 .doneCrit0,#mermaid-1682683706651 .doneCrit1,#mermaid-1682683706651 .doneCrit2,#mermaid-1682683706651 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1682683706651 .activeCritText0,#mermaid-1682683706651 .activeCritText1,#mermaid-1682683706651 .activeCritText2,#mermaid-1682683706651 .activeCritText3,#mermaid-1682683706651 .doneCritText0,#mermaid-1682683706651 .doneCritText1,#mermaid-1682683706651 .doneCritText2,#mermaid-1682683706651 .doneCritText3{fill:#000!important}#mermaid-1682683706651 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1682683706651 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1682683706651 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1682683706651 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1682683706651 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1682683706651 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1682683706651 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1682683706651 #compositionEnd,#mermaid-1682683706651 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682683706651 #aggregationEnd,#mermaid-1682683706651 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1682683706651 #dependencyEnd,#mermaid-1682683706651 #dependencyStart,#mermaid-1682683706651 #extensionEnd,#mermaid-1682683706651 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682683706651 .branch-label,#mermaid-1682683706651 .commit-id,#mermaid-1682683706651 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1682683706651 {
+  <svg id="mermaid-1682684435671" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1682684435671 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1682684435671 .node circle,#mermaid-1682684435671 .node ellipse,#mermaid-1682684435671 .node polygon,#mermaid-1682684435671 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1682684435671 .node.clickable{cursor:pointer}#mermaid-1682684435671 .arrowheadPath{fill:#333}#mermaid-1682684435671 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1682684435671 .edgeLabel{background-color:#e8e8e8}#mermaid-1682684435671 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1682684435671 .cluster text{fill:#333}#mermaid-1682684435671 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1682684435671 .actor{stroke:#ccf;fill:#ececff}#mermaid-1682684435671 text.actor{fill:#000;stroke:none}#mermaid-1682684435671 .actor-line{stroke:grey}#mermaid-1682684435671 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1682684435671 .messageLine0,#mermaid-1682684435671 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1682684435671 #arrowhead{fill:#333}#mermaid-1682684435671 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1682684435671 .messageText{fill:#333;stroke:none}#mermaid-1682684435671 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1682684435671 .labelText,#mermaid-1682684435671 .loopText{fill:#000;stroke:none}#mermaid-1682684435671 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1682684435671 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1682684435671 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1682684435671 .section{stroke:none;opacity:.2}#mermaid-1682684435671 .section0{fill:rgba(102,102,255,.49)}#mermaid-1682684435671 .section2{fill:#fff400}#mermaid-1682684435671 .section1,#mermaid-1682684435671 .section3{fill:#fff;opacity:.2}#mermaid-1682684435671 .sectionTitle0,#mermaid-1682684435671 .sectionTitle1,#mermaid-1682684435671 .sectionTitle2,#mermaid-1682684435671 .sectionTitle3{fill:#333}#mermaid-1682684435671 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1682684435671 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1682684435671 .grid path{stroke-width:0}#mermaid-1682684435671 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1682684435671 .task{stroke-width:2}#mermaid-1682684435671 .taskText{text-anchor:middle;font-size:11px}#mermaid-1682684435671 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1682684435671 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1682684435671 .taskText0,#mermaid-1682684435671 .taskText1,#mermaid-1682684435671 .taskText2,#mermaid-1682684435671 .taskText3{fill:#fff}#mermaid-1682684435671 .task0,#mermaid-1682684435671 .task1,#mermaid-1682684435671 .task2,#mermaid-1682684435671 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1682684435671 .taskTextOutside0,#mermaid-1682684435671 .taskTextOutside1,#mermaid-1682684435671 .taskTextOutside2,#mermaid-1682684435671 .taskTextOutside3{fill:#000}#mermaid-1682684435671 .active0,#mermaid-1682684435671 .active1,#mermaid-1682684435671 .active2,#mermaid-1682684435671 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1682684435671 .activeText0,#mermaid-1682684435671 .activeText1,#mermaid-1682684435671 .activeText2,#mermaid-1682684435671 .activeText3{fill:#000!important}#mermaid-1682684435671 .done0,#mermaid-1682684435671 .done1,#mermaid-1682684435671 .done2,#mermaid-1682684435671 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1682684435671 .doneText0,#mermaid-1682684435671 .doneText1,#mermaid-1682684435671 .doneText2,#mermaid-1682684435671 .doneText3{fill:#000!important}#mermaid-1682684435671 .crit0,#mermaid-1682684435671 .crit1,#mermaid-1682684435671 .crit2,#mermaid-1682684435671 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1682684435671 .activeCrit0,#mermaid-1682684435671 .activeCrit1,#mermaid-1682684435671 .activeCrit2,#mermaid-1682684435671 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1682684435671 .doneCrit0,#mermaid-1682684435671 .doneCrit1,#mermaid-1682684435671 .doneCrit2,#mermaid-1682684435671 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1682684435671 .activeCritText0,#mermaid-1682684435671 .activeCritText1,#mermaid-1682684435671 .activeCritText2,#mermaid-1682684435671 .activeCritText3,#mermaid-1682684435671 .doneCritText0,#mermaid-1682684435671 .doneCritText1,#mermaid-1682684435671 .doneCritText2,#mermaid-1682684435671 .doneCritText3{fill:#000!important}#mermaid-1682684435671 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1682684435671 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1682684435671 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1682684435671 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1682684435671 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1682684435671 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1682684435671 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1682684435671 #compositionEnd,#mermaid-1682684435671 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682684435671 #aggregationEnd,#mermaid-1682684435671 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1682684435671 #dependencyEnd,#mermaid-1682684435671 #dependencyStart,#mermaid-1682684435671 #extensionEnd,#mermaid-1682684435671 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682684435671 .branch-label,#mermaid-1682684435671 .commit-id,#mermaid-1682684435671 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1682684435671 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
@@ -419,4 +818,4 @@ This line is only separated by a single newline, so it’s a separate line in th
 </div>
 
 <h1 id="additional-details">Additional Details</h1>
-<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin">jekyll-twitter-plugin</a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><category term="formatting" /><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry><entry><title type="html">a post with disqus comments</title><link href="https://uva-dl2.github.io/blog/2015/disqus-comments/" rel="alternate" type="text/html" title="a post with disqus comments" /><published>2015-10-20T15:59:00+00:00</published><updated>2015-10-20T15:59:00+00:00</updated><id>https://uva-dl2.github.io/blog/2015/disqus-comments</id><content type="html" xml:base="https://uva-dl2.github.io/blog/2015/disqus-comments/"><![CDATA[<p>This post shows how to add DISQUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with disqus comments]]></summary></entry></feed>
+<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin">jekyll-twitter-plugin</a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><category term="formatting" /><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry></feed>
